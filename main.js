@@ -1,9 +1,24 @@
-var request = new XMLHttpRequest();
-request.open('GET','https://api.darksky.net/forecast/071f00969655c3ebc678622c4fc0d1f0/37.8267,-122.4233');
+window.addEventListener("load",() => {
+    let long;
+    let lat;
 
-request.onload = function() {
-    var weatherData = JSON.parse(request.responseText);
-    document.getElementById("temp").innerHTML = myObj.name;
-};
+    if(navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(position => {
+            long = position.coords.longitude;
+            lat = position.coords.latitude;
 
-request.send();
+            request.onload = function() {
+                const proxy = "http://cors-anywhere.herokuapp.com/";
+                const api = '${proxy}https://api.darksky.net/forecast/071f00969655c3ebc678622c4fc0d1f0/${lat},${long}';
+            
+                fetch(api)
+                    .then(respnose => {
+                        return this.response.json();
+                    })
+                    .then(data => {
+                        console.log(data);
+                    })
+            };
+        })
+    }
+});
