@@ -1,6 +1,15 @@
-# Weather Dashboard [![Node.js CI](https://github.com/jlthompson96/Weather_Dashboard/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/jlthompson96/Weather_Dashboard/actions/workflows/node.js.yml)
-A website that uses the DarkSky API to display weather data on a webpage.
-* Curenlty in Development
-* Research a possible new API
+# Weather Dashboard
+A website that uses the Reactjs framework to display weather data on a webpage. Based on the <a href="https://www.youtube.com/watch?v=Reny0cTTv24">freecodecamp course</a>
+
+## APIs Used
+- GeoDb
+- OpenWeatherMap
+
+## Technologies Used
+- HTML <img align="left" alt="HTML5" width="26px" src="https://github.com/jlthompson96/vscode-material-icon-theme/blob/master/icons/html.svg" /> 
+- CSS <img align="left" alt="CSS3" width="26px" src="https://github.com/jlthompson96/vscode-material-icon-theme/blob/master/icons/css.svg" />
+- JavaScript <img align="left" alt="JavaScipt" width="26px" src="https://github.com/jlthompson96/vscode-material-icon-theme/blob/master/icons/javascript.svg" />
+- Reactjs <img align="left" alt="HTML5" width="26px" src="https://github.com/jlthompson96/vscode-material-icon-theme/blob/master/icons/react.svg" />
+- Nodejs <img align="left" alt="HTML5" width="26px" src="https://github.com/jlthompson96/vscode-material-icon-theme/blob/master/icons/nodejs.svg" /> 
 
 
