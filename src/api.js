@@ -6,7 +6,7 @@ export const geoApiOptions = {
 	}
 };
 
-export const GEO_API_URL = 'https://wft-geo-db.p.rapidapi.com/v1/geo';
+export const GEO_API_URL = 'API_URL';
 
 export const WEATHER_API_URL = 'API_URL';
 export const WEATHER_API_KEY = 'API_KEY'
