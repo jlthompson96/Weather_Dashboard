@@ -1,6 +1,8 @@
 # Weather Dashboard
 A website that uses the Reactjs framework to display weather data on a webpage. Based on the <a href="https://www.youtube.com/watch?v=Reny0cTTv24">freecodecamp course</a>
 
+<img src="public/WeatherDashboardPreview.png" alt="Weather Dashboard Preview">
+
 ## APIs Used
 - GeoDb
 - OpenWeatherMap
